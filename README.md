@@ -467,7 +467,7 @@ changed, this subsection is based on a different branch.
 > [!WARNING]  
 > This section can only be exactly reproduced on a machine with ARM `aarch64` (e.g., an M1 or M2 Mac). We provide pre-saved rule traces if you do not have access to such a machine.
 
-First checkout the specific branch that tracks these rule statistics and navigate to the root of the directory:
+First, checkout the specific branch that tracks these rule statistics and navigate to the root of the directory:
 
 ```bash
 git checkout rule-stats
