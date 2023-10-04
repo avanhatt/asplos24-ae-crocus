@@ -1,6 +1,9 @@
 # Artifact Evaluation: Lightweight, Modular Verification for WebAssembly-to-Native Instruction Selection (Crocus)
 
-These instructions are hosted in an archival repository at XXXX. 
+These instructions are hosted in an archival repository at:
+[![DOI](https://zenodo.org/badge/700172189.svg)](https://zenodo.org/badge/latestdoi/700172189)
+
+. 
 
 # Abstract
 
