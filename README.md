@@ -17,12 +17,16 @@ In this artifact, we provide instructions for reproducing each of the major empi
 We estimate the required components of this artifact to take around 1.5-2 hours of reviewer time (with additional 
 optional components listed as such). 
 
+> [!Note]  
+> We list important components as notes.
+
 ----
 ## Machine requirements
 
 The majority of our artifact should perform as expected on most CPUs, including laptops.
 
-However, to fully reproduce one result (our rule coverage experiment), we require access
+> [!WARNING]  
+> However, to fully reproduce one result (our rule coverage experiment), we require access
  to a machine with ARM `aarch64` (e.g., an M1 or M2 Mac). However, we have including pre-saved build traces for 
 `aarch64` compilations as well as the scripts to analyze them, in case a reviewer does not have access 
 to an `aarch64` machine (this experiment is not one of our core results).
