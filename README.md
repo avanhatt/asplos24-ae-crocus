@@ -18,7 +18,7 @@ We estimate the required components of this artifact to take around 1.5-2 hours 
 optional components listed as such). 
 
 > [!Note]  
-> We list important components as notes.
+> We list the most important instructions as notes.
 
 ----
 ## Machine requirements
@@ -89,7 +89,8 @@ Similarly, if you are running Docker within a virtual container or cloud instanc
 
 The remainder of this artifact assumes all commands are run within the Docker instance.
 
-To interactively run the Docker instance, run the following:
+> [!Note]  
+> To interactively run the Docker instance, run the following:
 
 ```bash
 docker run -i -t --rm ghcr.io/avanhatt/crocus:0.1
@@ -98,7 +99,8 @@ docker run -i -t --rm ghcr.io/avanhatt/crocus:0.1
 Inside the docker, you will be placed in the directory `/root/wasmtime/cranelift/isle/veri/veri_engine` 
 (our fork of `wasmtime`/Cranelift, on the branch `asplos24-ae`).
 
-From there, pull to get any of the latest updates to the `asplos24-ae` branch:
+> [!Note]  
+> From there, pull to get any of the latest updates to the `asplos24-ae` branch:
 
 ```bash
 git pull
