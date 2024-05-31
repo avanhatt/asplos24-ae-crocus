@@ -124,7 +124,7 @@ We recommend connecting to the running Docker instance in [VSCode][] or another 
 ### Python
 - Install [Python][] >= `3.0`.
 - You will also need the following Python packages:
-    - `pip3 -mpip install matplotlib tabulate`
+    - `pip3 install matplotlib tabulate`
 
 ### Rust
 - Install [Rust][] >= `rustc 1.72.1`.
